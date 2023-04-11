@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap")
+
+*
+  font-family: "Montserrat", sans-serif
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+header
+  margin: 20px 0 120px 76px
+
+.link-header
+  font-size: 24px
+  margin-right: 23px
+  font-weight: 600
+  line-height: 29px
+  color: #989d9c
+  cursor: pointer
+
+  transition:
+    duration: 0.5s
+
+  &:hover
+    font-size: 36px
+    color: #525554
+
+.button-header
+  background-color: #665ae1
+  width: 130px
+  color: white
+  font-weight: 600
+  font-size: 24px
+  border: none
+  height: 41px
+  line-height: 29px
+  cursor: pointer
+  border-radius: 20.5px
+
+  transition:
+    duration: 0.5s
+
+  &:hover
+    background-color: #4f47ad
+
+.img-logo
+  width: 40vw
+  margin-left: 125px
+  display: inline-block
+
+.secao-texto
+  display: inline-block
+  margin-left: 86px
+  width: 40vw
+
+.h1-wecare
+  font-style: normal
+  font-weight: 900
+  font-size: 100px
+  line-height: 122px
+  color: #515151
+
+.h2-aboutyourpet
+  font-style: normal
+  font-weight: 500
+  font-size: 58px
+  line-height: 71px
+  color: #515151
+
+.p-texto
+  width: 100%
+  font-weight: 400
+  font-size: 24px
+  line-height: 29px
+  color: #848484
+  margin-top: 32px
+  margin-bottom: 50px
+  text-align: justify
+
+.button-main
+  width: 239px
+  height: 64px
+  background: #adff00
+  border: none
+  border-radius: 20.5px
+  cursor: pointer
+  font-weight: 700
+  font-size: 28px
+  line-height: 34px
+  color: #000000
+
+  transition:
+    duration: 0.5s
+
+  &:hover
+    background: #96db00
+
+@media screen and (max-width: 1100px)
+  .secao-texto
+    width: 100vw
+    margin-left: 0
+
+  .h1-wecare
+    text-align: center
+    font-weight: 900
+    font-size: 50px
+    line-height: 61px
+
+    color: #515151
+
+  .h2-aboutyourpet
+    text-align: center
+    font-weight: 500
+    font-size: 30px
+    line-height: 37px
+    /* identical to box height */
+    margin-bottom: 17px
+
+    color: #515151
+
+  .p-texto
+    display: none
+
+  .img-logo
+    display: block
+    margin-left: auto
+    margin-right: auto
+    width: 90vw
+    margin-bottom: 24px
+
+  .button-main
+    display: block
+    margin-left: auto
+    margin-right: auto
+
+  .link-header
+    display: none
+
+  .button-header
+    display: none
